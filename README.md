@@ -67,7 +67,7 @@ input int InpEndMinute = 58;         // Trading end minute
 ## 📁 Required Files
 
 ### Core Files
-- `final (2).mq5` - Main EA file
+- `final.mq5` - Main EA file
 - `trademanager.mqh` - Custom trade management class (included)
 
 ### External Dependencies
@@ -77,7 +77,7 @@ input int InpEndMinute = 58;         // Trading end minute
 
 1. **Download Files**: Clone or download all required files
 2. **Copy to MetaTrader**:
-   - Place `final (2).mq5` in `/MQL5/Experts/`
+   - Place `final.mq5` in `/MQL5/Experts/`
    - Place `trademanager.mqh` in `/MQL5/Include/`
    - Place `ALMA_v1.mq5` in `/MQL5/Indicators/`
 3. **Compile**: Open MetaEditor and compile the EA
@@ -134,10 +134,10 @@ Contributions are welcome! Please:
 This project is open source. 
 
 ### Credits
-- **ALMA Indicator**: Originally developed by Arnaud Legoux, Dimitris Kouzis-Loukas, and Anthony Cascino
-- **ALMA Implementation**: Coded by IgorAD (igorad2003@yahoo.co.uk) from TrendLaboratory
+- **ALMA Indicator**: Originally developed by Dimitris Kouzis-Loukas, and Anthony Cascino
+- **ALMA Implementation**: Coded by IgorAD ([igorad2003@yahoo.co.uk](https://www.forexfactory.com/igorad)) from TrendLaboratory
 - **Trade Manager**: Custom implementation by repository author
-- **Main EA**: Developed by Erenali
+- **Main EA**: Developed by Erenali Balcıkardeşler
 
 ## 🙋‍♂️ Support
 
@@ -157,4 +157,4 @@ Future enhancements may include:
 
 ---
 
-**Note**: This EA uses the ALMA_v1.mq5 indicator originally developed by Arnaud Legoux, Dimitris Kouzis-Loukas, and Anthony Cascino, implemented by IgorAD from TrendLaboratory. All credits and copyrights for the ALMA indicator are preserved and respected.
+**Note**: This EA uses the ALMA_v1.mq5 indicator originally developed by Dimitris Kouzis-Loukas, and Anthony Cascino, implemented by IgorAD from TrendLaboratory. All credits and copyrights for the ALMA indicator are preserved and respected.
