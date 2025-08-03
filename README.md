@@ -1,4 +1,4 @@
-# 5ers Final Trading Bot
+# MQL5 Trading Bot
 
 A sophisticated MQL5 Expert Advisor (EA) that implements a dual ALMA (Adaptive Linear Moving Average) crossover strategy with advanced risk management and trend confirmation.
 
@@ -19,7 +19,7 @@ The EA operates on a dual ALMA crossover system:
 
 1. **Fast ALMA** (default: 27 period) - For entry signals
 2. **Slow ALMA** (default: 150 period) - For trend direction and slope confirmation
-
+3. **ATR** (default: 14 period) - For dynamic TP/SL
 ### Entry Conditions
 - **Long Entry**: Fast ALMA crosses above Slow ALMA + upward slope confirmation
 - **Short Entry**: Fast ALMA crosses below Slow ALMA + downward slope confirmation
